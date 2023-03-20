@@ -1,0 +1,22 @@
+.genres_carousel{
+    padding-top: 5rem;
+}
+
+.carousel-section{
+    position: relative;
+    margin-bottom: 70px;;
+}
+
+.carousel-section .carousel_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.carousel-section .carousel_wrapper .carousel-title{
+    font-size: 24px;
+    color: white;
+    font-weight: 600 ;
+}
+

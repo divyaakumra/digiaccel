@@ -1,0 +1,10 @@
+.footer_wrapper{
+    padding: 2rem;
+    background-color: #011832;
+    text-align: center;
+}
+
+.footer_wrapper p{
+    font-size: 1rem;
+    color : #fff;
+}

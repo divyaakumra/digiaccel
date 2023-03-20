@@ -1,0 +1,40 @@
+.searchMovieContainer{
+    padding: 80px 0px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.movieItem{
+    height: 250px;
+    width: 200px;  
+    margin-bottom: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.movieItem:hover{
+    box-shadow: 0px 0px 25px 2px #ffffff6f;
+}
+
+
+.moviePoster{
+    overflow: hidden;
+    width: 100%;
+}
+
+.moviePoster img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+@media only screen and (max-width:767px){
+    .movieItem{
+        height: 200px;
+        width: 150px;
+        
+    }
+}

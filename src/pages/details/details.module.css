@@ -1,0 +1,87 @@
+.details{
+    padding: 6rem 0;
+    background: radial-gradient(#370945, transparent);
+    min-height: 70vh;
+}
+
+.showContent{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.showPoster{
+    width: 40%;
+    height : auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.showPoster img{
+    object-fit: contain;
+    height: 500px;
+    object-position: center;
+}
+
+.showDataLoading{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.showDetails{
+    width: 60%;
+    text-align: left;
+    color: #fff;
+    padding-left: 2rem;
+}
+
+.showTitle{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.showLang, .showGenre, .showRating, .showSummary{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: rgb(236, 156, 219);
+}
+
+.showLang span,
+.showGenre span,
+.showRating span,
+.showSummary span{
+    font-weight: 400 ;
+    text-transform: unset;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.showSummary span{
+    display: block;
+}
+
+@media only screen and (max-width:767px){
+    .showContent{
+        flex-direction: column;
+    }
+
+    .showPoster,
+    .showDetails{
+        width: 100%;
+    }
+
+    .showDetails{
+         padding-left: 0;
+         padding-top: 3rem;
+    }
+
+    .showPoster img{
+        height: 400px;
+    }
+
+    .showTitle{
+        text-align: center;
+    }
+}
